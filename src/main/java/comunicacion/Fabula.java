@@ -29,13 +29,9 @@ public class Fabula extends Escrito{
 		retu+="\n"+this.ensenanza;
 		return retu;
 	}
-	
-	public int palabrasTotales() {
-		return palabrasTotales(1);
-	}
-	
+
 	public int palabrasTotales(int numero) {
-		return this.getPaginas()*numero;
+		return this.getPaginas()*numero*1;
 	}
 	
 }

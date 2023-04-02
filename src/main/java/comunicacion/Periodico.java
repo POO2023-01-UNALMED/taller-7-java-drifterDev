@@ -39,12 +39,8 @@ public class Periodico extends Escrito{
 		return retu;
 	}
 	
-	public int palabrasTotales() {
-		return palabrasTotales(10);
-	}
-	
 	public int palabrasTotales(int numero) {
-		return this.getPaginas()*numero;
+		return this.getPaginas()*numero*10;
 	}
 	
 	

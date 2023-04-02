@@ -50,12 +50,8 @@ public class Libro extends Escrito{
 		return retu;
 	}
 	
-	public int palabrasTotales() {
-		return palabrasTotales(2);
-	}
-	
 	public int palabrasTotales(int numero) {
-		return this.getPaginas()*numero;
+		return this.getPaginas()*numero*2;
 	}
 
 }

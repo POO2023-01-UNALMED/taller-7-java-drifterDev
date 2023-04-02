@@ -57,12 +57,8 @@ public class Tesis extends Escrito {
 		return retu;
 	}
 	
-	public int palabrasTotales() {
-		return palabrasTotales(5);
-	}
-	
 	public int palabrasTotales(int numero) {
-		return this.getPaginas()*numero;
+		return this.getPaginas()*numero*5;
 	}
 	
 	
